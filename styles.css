@@ -204,7 +204,7 @@ footer {
   }
 }
 
-/* Tu código original aquí... */
+
 
 .left-panel {
   position: relative;
@@ -220,7 +220,7 @@ footer {
 .overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 50, 0.6); /* tono oscuro para resaltar el texto */
+  background-color: rgba(0, 0, 50, 0.6); 
   z-index: 1;
 }
 
@@ -236,7 +236,7 @@ footer {
 .logo-panel {
   display: flex;
   align-items: center;
-  gap: 1rem; /* espacio entre el logo y el texto */
+  gap: 1rem; 
   margin-bottom: 1.5rem;
 }
 
@@ -318,7 +318,7 @@ footer {
   margin: 0;
 }
 
-/* Responsividad */
+
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -329,20 +329,20 @@ footer {
     display: flex;
     width: 100%;
     height: auto;
-    min-height: 300px; /* para asegurar que se vea la imagen y texto */
+    min-height: 300px; 
     flex: none;
     justify-content: center;
     align-items: center;
   }
 
   .content {
-    text-align: center; /* centrado para mejor aspecto en móviles */
+    text-align: center; 
     padding: 1.5rem;
   }
 
   .logo-panel {
-    justify-content: center; /* centrar logo y texto */
-    flex-wrap: wrap; /* si no cabe en una línea, pasa abajo */
+    justify-content: center; 
+    flex-wrap: wrap; 
   }
 
   .stats {
@@ -361,12 +361,12 @@ footer {
     padding: 1.5rem;
   }
 }
-/* Burbujas animadas */
+
 .bubbles {
   position: absolute;
   inset: 0;
   overflow: hidden;
-  z-index: 1; /* debajo del texto pero encima del fondo */
+  z-index: 1; 
 }
 
 .bubbles span {
